@@ -1,0 +1,98 @@
+// Function to scroll the page down by the height of the viewport
+function scrollPage() {
+  window.scrollBy(0, window.innerHeight); // Scroll down by the height of the viewport
+}
+
+// Function to remove articles based on alt text
+function removeArticles() {
+  const altTexts = [
+
+"Box art for PEAK",
+"Box art for Clair Obscur: Expedition 33",
+"Box art for BALL x PIT",
+"Box art for FlyKnight",
+"Box art for Tower Wizard",
+"Box art for BRAZILIAN DRUG DEALER 3: I OPENED A PORTAL TO HELL IN THE FAVELA TRYING TO REVIVE MIT AIA I NEED TO CLOSE IT",
+"Box art for Demonic Mahjong",
+"Box art for BLACK SOULS",
+"Box art for BLACK SOULS II",
+"Box art for 恋爱吗？我家猫会后空翻",
+"Box art for Journey of Realm：Dawn Dew",
+"Box art for Monster Prom 4: Monster Con",
+"Box art for Touhou Dystopian",
+"Box art for Heartbeat in Thailand",
+"Box art for Five Hearts Under One Roof season2",
+"Box art for Kemono Teatime",
+"Box art for Love Begins With Goodbye",
+"Box art for The Boba Teashop",
+"Box art for Fate/hollow ataraxia REMASTERED",
+"Box art for MAHOUTEQ!",
+"Box art for ELDEN RING NIGHTREIGN",
+"Box art for The First Berserker: Khazan",
+"Box art for Tower Unite",
+"Box art for Tokyo Xtreme Racer",
+"Box art for F1® 25",
+"Box art for Warhammer 40,000: Dawn of War - Definitive Edition",
+"Box art for Hello Kitty Island Adventure",
+"Box art for Five Nights at Freddy's: Secret of the Mimic",
+"Box art for Chill with You : Lo-Fi Story",
+"Box art for Your Mother",
+"Box art for Absolum",
+"Box art for Jurassic World Evolution 3",
+"Box art for Date Everything!",
+"Box art for Nunholy",
+"Box art for gogh: Focus with Your Avatar",
+"Box art for Kemono Teatime",
+"Box art for Promise Mascot Agency",
+"Box art for My Summer Car",
+"Box art for Wobbly Life"
+
+  ];
+
+  altTexts.forEach(altText => {
+    // Find all images with the specific alt text
+    const imgs = document.querySelectorAll(`img[alt^="${altText}"]`);
+
+    // Loop through each image and remove the corresponding article
+    imgs.forEach(img => {
+      // Find the closest ancestor <article itemscope itemtype> element
+      const article = img.closest('article[itemscope][itemtype]');
+
+      // If the article element exists, remove it
+      if (article) {
+        article.remove();
+      }
+    });
+  });
+}
+
+// Function to stop scrolling once the "Back to Top" button is detected
+function stopScrollWhenButtonDetected() {
+  // Select the button element
+  const backToTopButton = document.querySelector('button.flex.mx-auto.justify-center.py-4.px-8.rounded-md.text-white.hover\\:text-indigo-500');
+
+  // If the button exists, stop scrolling and remove the observer
+  if (backToTopButton) {
+    clearInterval(scrollInterval); // Stop the scrolling interval
+    observer.disconnect(); // Stop the MutationObserver
+    console.log("Back to Top button detected. Scrolling stopped.");
+  }
+}
+
+// Set up a MutationObserver to detect the button being added to the DOM
+const observer = new MutationObserver(() => {
+  stopScrollWhenButtonDetected(); // Check for button when DOM changes
+});
+
+// Observe the body for added child nodes (button could be dynamically added)
+observer.observe(document.body, {
+  childList: true,
+  subtree: true
+});
+
+// Start scrolling the page down and remove articles at the same time
+const scrollInterval = setInterval(() => {
+  scrollPage();          // Scroll the page down
+  removeArticles();      // Remove articles based on alt text
+  stopScrollWhenButtonDetected();  // Check if the "Back to Top" button appears
+}, 10);  // Scroll every x milliseconds (adjust as needed)
