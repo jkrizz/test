@@ -7,7 +7,6 @@ function scrollPage() {
 function removeArticles() {
   const altTexts = [
 
-"Box art for PEAK",
 "Box art for Clair Obscur: Expedition 33",
 "Box art for BALL x PIT",
 "Box art for FlyKnight",
