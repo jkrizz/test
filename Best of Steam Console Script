@@ -95,7 +95,7 @@ function removeArticles() {
 
   altTexts.forEach(altText => {
     // Find all images with the specific alt text
-    const imgs = document.querySelectorAll(`img[alt^="${altText}"]`);
+    const imgs = document.querySelectorAll(`img[alt="${altText}"]`);
 
     // Loop through each image and remove the corresponding article
     imgs.forEach(img => {
