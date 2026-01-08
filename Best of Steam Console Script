@@ -86,6 +86,8 @@ function removeArticles() {
 "Box art for Tomb Raider Game of the Year",
 "Box art for Assassin's Creed® Odyssey",
 "Box art for Abyssus",
+"Box art for To the Moon",
+"Box are for Inside",
 
 
 
@@ -110,6 +112,7 @@ function removeArticles() {
 "Box art for Lost Child",
 "Box art for News Tower",
 "Box art for Ropuka's Idle Island",
+"Box art for Resident Evil 4 (2005)",
 "Box art for Guilty as Sock!",
 "Box art for Survivalist: Invisible Strain",
 "Box art for Cultivation Magic World",
