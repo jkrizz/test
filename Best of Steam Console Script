@@ -93,6 +93,10 @@ function removeArticles() {
 "Box art for Abyssus",
 "Box art for To the Moon",
 "Box are for Inside",
+"Box art for Middle-earth™: Shadow of War™",
+"Box art for Resident Evil 7 Biohazard",
+"Box art for STAR WARS™ Battlefront™ II",
+
 
 
 
@@ -100,6 +104,7 @@ function removeArticles() {
 //No Interest
 "Box art for Geometry Dash",
 "Box art for MONSTER HUNTER RISE",
+"Box art for Stellaris",
 "Box art for Palworld",
 "Box art for ARK: Survival Evolved",
 "Box art for NARAKA: BLADEPOINT",
@@ -107,6 +112,7 @@ function removeArticles() {
 "Survivalist: Invisible Strain",
 "Box art for Cataclismo",
 "Box art for That's not my Neighbor",
+"Box art for A Dance of Fire and Ice",
 "Box art for StarVaders",
 "Box art for Manor Lords",
 "Box art for Sledders",
@@ -115,6 +121,11 @@ function removeArticles() {
 "Box art for Halo: The Master Chief Collection",
 "Box art for Dark Deity 2",
 "Box art for Who's at the door?",
+"Box art for OMORI",
+"Box art for Mortal Kombat 11",
+"Box art for MORDHAU",
+"Box art for The Witcher 2: Assassins of Kings Enhanced Edition",
+"Box art for Noita",
 "Box art for Lost Child",
 "Box art for News Tower",
 "Box art for Ropuka's Idle Island",
