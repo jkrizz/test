@@ -162,6 +162,10 @@ function removeArticles() {
 "Box art for Darksiders Genesis",
 "Box art for INSIDE",
 "Box art for KovaaK's",
+"Box art for DLC Quest",
+"Box art for The Swapper",
+"Box art for Never Alone (Kisima Ingitchuna)",
+
 
 
 
@@ -178,6 +182,7 @@ function removeArticles() {
 "Box art for Green Hell",
 "Box art for ARK: Survival Evolved",
 "Box art for VA-11 Hall-A: Cyberpunk Bartender Action",
+"Box art for Five Hearts Under One Roof",
 "Box art for Ryse: Son of Rome",
 "Box art for PBA Pro Bowling 2026",
 "Box art for Danganronpa: Trigger Happy Havoc",
