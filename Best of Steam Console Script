@@ -7,6 +7,21 @@ function scrollPage() {
 function removeArticles() {
   const altTexts = [
 
+//Come Back Around to Maybe
+"Box art for Subnautica",
+"Box art for Raft",
+"Box art for Deep Rock Galactic",
+"Box art for Schedule I",
+"Box art for Sons Of The Forest",
+"Box art for ARC Raiders",
+"Box art for 7 Days to Die",
+"Box art for Factorio",
+"Box art for DOOM Eternal",
+"Box art for Kingdom Come: Deliverance II",
+"Box art for Kingdom Come: Deliverance",
+"Box art for Subnautica: Below Zero",
+"Box art for Overcooked! 2",
+"Box art for Northgard: Definitive Edition",
 
 //CompletedRecommend
 "Box art for Clair Obscur: Expedition 33",
@@ -188,6 +203,7 @@ function removeArticles() {
 
 
 //No Interest
+"Box art for Gang Beasts",
 "Box art for Geometry Dash",
 "Box art for Sea of Thieves: 2026 Edition",
 "Box art for MONSTER HUNTER RISE",
