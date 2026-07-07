@@ -22,6 +22,7 @@ function removeArticles() {
 "Box art for Subnautica: Below Zero",
 "Box art for Overcooked! 2",
 "Box art for Northgard: Definitive Edition",
+"Box art for Palworld",
 
 //CompletedRecommend
 "Box art for Clair Obscur: Expedition 33",
@@ -209,7 +210,6 @@ function removeArticles() {
 "Box art for MONSTER HUNTER RISE",
 "Box art for Stellaris",
 "Box art for Russian Life Simulator",
-"Box art for Palworld",
 "Age of Mythology: Retold",
 "Box art for Dead Island Definitive Edition",
 "Box art for Age of Mythology: Extended Edition",
