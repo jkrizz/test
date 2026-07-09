@@ -7,6 +7,11 @@ function scrollPage() {
 function removeArticles() {
   const altTexts = [
 
+
+
+
+
+
 //Come Back Around to Maybe
 "Box art for Subnautica",
 "Box art for Raft",
@@ -23,6 +28,28 @@ function removeArticles() {
 "Box art for Overcooked! 2",
 "Box art for Northgard: Definitive Edition",
 "Box art for Palworld",
+"Box art for Red Dead Redemption 2",
+"Box art for Dying Light",
+"Box art for The Elder Scrolls V: Skyrim Special Edition",
+"Box art for Team Fortress 2",
+"Box art for Left 4 Dead",
+"Box art for Batman: Arkham Asylum Game of the Year Edition",
+"Box art for DOOM",
+"Box art for Balatro",
+"Box art for Terraria",
+"Box art for Stardew Valley",
+"Box art for PAYDAY 2",
+"Box art for Left 4 Dead 2",
+"Box art for METAL GEAR SOLID V: THE PHANTOM PAIN",
+"Box art for Abyssus",
+"Box art for Middle-earth™: Shadow of War™",
+"Box art for Dragon's Dogma: Dark Arisen",
+"Box art for Jurassic World Evolution",
+
+
+
+
+
 
 //CompletedRecommend
 "Box art for Clair Obscur: Expedition 33",
@@ -42,17 +69,14 @@ function removeArticles() {
 "Box art for Bioshock Infinite",
 "Box art for FINAL FANTASY XV WINDOWS EDITION",
 "Box art for FINAL FANTASY XII THE ZODIAC AGE",
-"Box art for Red Dead Redemption 2",
 "Box art for Quantum Break",
 "Box art for Resident Evil 3",
 "Box art for Children of Morta",
 "Box art for A Story About My Uncle",
-"Box art for Injustice™ 2",
 "Box art for Sifu",
 "Box art for The Invincible",
 "Box art for DOOM 3",
 "Box art for Darksiders™",
-"Box art for Dying Light",
 "Box art for Refunct",
 "Box art for Blasphemous",
 "Box art for Aragami",
@@ -61,11 +85,8 @@ function removeArticles() {
 "Box art for Aliens: Fireteam Elite",
 "Box art for DEATH STRANDING DIRECTOR'S CUT",
 "Box art for PlateUp!",
-"Box art for The Elder Scrolls V: Skyrim Special Edition",
 "Box art for High On Life",
-"Box art for Team Fortress 2",
 "Box art for Castle Crashers®",
-"Box art for Escape the Backrooms",
 "Box art for AI Limit",
 "Box art for Nocturnal",
 "Box art for CONTROL Ultimate Edition",
@@ -73,9 +94,7 @@ function removeArticles() {
 "Box art for Shape of Dreams",
 "Box art for The Elder Scrolls V: Skyrim",
 "Box art for Ori and the Blind Forest: Definitive Edition",
-"Box art for Left 4 Dead",
 "Box art for A Plague Tale: Innocence",
-"Box art for Batman: Arkham Asylum Game of the Year Edition",
 "Box art for Little Nightmares",
 "Box art for Hellblade: Senua's Sacrifice",
 "Box art for SOMA",
@@ -85,7 +104,6 @@ function removeArticles() {
 "Box art for ABZU",
 "Box art for Nodebuster",
 "Box art for Outer Wilds",
-"Box art for DOOM",
 "Box art for Warhammer: Vermintide 2",
 "Box art for DRAGON BALL Z: KAKAROT",
 "Box art for Alan Wake",
@@ -100,7 +118,6 @@ function removeArticles() {
 "Box art for Dust: An Elysian Tail",
 "Box art for BALL x PIT",
 "Box art for Detroit: Become Human",
-"Box art for Balatro",
 "Box art for Assassin's Creed® Revelations",
 "Box art for Slime Rancher",
 "Box art for Ori and the Will of the Wisps",
@@ -126,12 +143,8 @@ function removeArticles() {
 "Box art for Absolum",
 "Box art for Grand Theft Auto V Legacy",
 "Box art for Grand Theft Auto V Enhanced",
-"Box art for Terraria",
 "Box art for Black Myth: Wukong",
-"Box art for Stardew Valley",
 "Box art for ELDEN RING",
-"Box art for PAYDAY 2",
-"Box art for Left 4 Dead 2",
 "Box art for Cyberpunk 2077",
 "Box art for Baldur's Gate 3",
 "Box art for Hollow Knight",
@@ -143,7 +156,6 @@ function removeArticles() {
 "Box art for South Park™: The Stick of Truth™",
 "Box art for No Man's Sky",
 "Box art for Sekiro™: Shadows Die Twice - GOTY Edition",
-"Box art for METAL GEAR SOLID V: THE PHANTOM PAIN",
 "Box art for Hogwarts Legacy",
 "Box art for Titanfall® 2",
 "Box art for Borderlands 2",
@@ -155,7 +167,6 @@ function removeArticles() {
 "Box art for Portal",
 "Box art for Tomb Raider Game of the Year",
 "Box art for Assassin's Creed® Odyssey",
-"Box art for Abyssus",
 "Box art for Transistor",
 "Box art for SUPERHOT",
 "Box art for 20 Minutes Till Dawn",
@@ -168,8 +179,6 @@ function removeArticles() {
 "Box art for Return of the Obra Dinn",
 "Box art for Middle-earth™: Shadow of Mordor™",
 "Box art for Bright Memory",
-"Box art for Middle-earth™: Shadow of War™",
-"Box art for Dragon's Dogma: Dark Arisen",
 "Box art for Prey",
 "Box art for Half-Life 2: Episode One",
 "Box art for Half-Life 2: Episode Two",
@@ -190,7 +199,6 @@ function removeArticles() {
 "Box art for Spiritfarer®: Farewell Edition",
 "Box art for What Remains of Edith Finch",
 "Box art for Ghostrunner",
-"Box art for Jurassic World Evolution",
 "Box art for Red Dead Online",
 "Box art for Darksiders Genesis",
 "Box art for INSIDE",
@@ -201,13 +209,11 @@ function removeArticles() {
 
 
 
-
-
-
 //No Interest
 "Box art for Gang Beasts",
 "Box art for Geometry Dash",
 "Box art for Sea of Thieves: 2026 Edition",
+"Box art for Injustice™ 2",
 "Box art for MONSTER HUNTER RISE",
 "Box art for Stellaris",
 "Box art for Russian Life Simulator",
@@ -219,6 +225,7 @@ function removeArticles() {
 "Box art for ARK: Survival Evolved",
 "Box art for VA-11 Hall-A: Cyberpunk Bartender Action",
 "Box art for Five Hearts Under One Roof",
+"Box art for Escape the Backrooms",
 "Box art for Ryse: Son of Rome",
 "Box art for PBA Pro Bowling 2026",
 "Box art for Danganronpa: Trigger Happy Havoc",
