@@ -628,4 +628,4 @@ const scrollInterval = setInterval(() => {
   scrollPage();          // Scroll the page down
   removeArticles();      // Remove articles based on alt text
   stopScrollWhenButtonDetected();  // Check if the "Back to Top" button appears
-}, 1000);  // Scroll every x milliseconds (adjust as needed)
+}, 2000);  // Scroll every x milliseconds (adjust as needed)
