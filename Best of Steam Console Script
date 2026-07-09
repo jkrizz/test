@@ -46,8 +46,7 @@ function removeArticles() {
 "Box art for Dragon's Dogma: Dark Arisen",
 "Box art for Jurassic World Evolution",
 "Box art for The Witcher 3: Wild Hunt",
-
-
+"Box art for Ryse: Son of Rome",
 
 
 
@@ -92,6 +91,7 @@ function removeArticles() {
 "Box art for High On Life",
 "Box art for Fable Anniversary",
 "Box art for Castle Crashers®",
+"Box art for Dead Island Definitive Edition",
 "Box art for AI Limit",
 "Box art for Nocturnal",
 "Box art for DEAD RISING®",
@@ -220,42 +220,73 @@ function removeArticles() {
 
 
 
-//No Interest
-"Box art for Gang Beasts",
-"Box art for Geometry Dash",
-"Box art for Sea of Thieves: 2026 Edition",
-"Box art for Injustice™ 2",
-"Box art for MONSTER HUNTER RISE",
+//No Interest - 4X/RTS
 "Box art for Stellaris",
-"Box art for Russian Life Simulator",
 "Age of Mythology: Retold",
-"Box art for Dead Island Definitive Edition",
 "Box art for Age of Mythology: Extended Edition",
+"Box art for Anno 1800",
+"Box art for Sid Meier’s Civilization® VI",
+"Box art for Age of Empires II: Definitive Edition"
+"Box art for Total War: THREE KINGDOMS",
+"Box art for Command & Conquer™ Remastered Collection",
+
+//No Interest - Fighters
+"Box art for Injustice™ 2",
 "Box art for TEKKEN 7",
-"Box art for Green Hell",
-"Box art for ARK: Survival Evolved",
-"Box art for Tomb Raider I-III Remastered Starring Lara Croft",
-"Box art for VA-11 Hall-A: Cyberpunk Bartender Action",
-"Box art for Five Hearts Under One Roof",
-"Box art for Escape the Backrooms",
-"Box art for Ryse: Son of Rome",
-"Box art for PBA Pro Bowling 2026",
-"Box art for Danganronpa: Trigger Happy Havoc",
-"Box art for Rising Storm 2: Vietnam",
-"Box art for Just Cause 2",
-"Box art for Phoenix Wright: Ace Attorney Trilogy",
+"Box art for Mortal Kombat&nbsp;11",
+
+//No Interest - High Quality
+"Box art for MONSTER HUNTER RISE",
+"Box art for Call of Duty®: Modern Warfare® 2 (2009)",
+"Box art for POPUCOM",
+
+//No Interest - Indie
+"Box art for Geometry Dash",
+
+//No Interest - Low Quality Trash
+"Box art for Russian Life Simulator",
 "Box art for Blood and Bacon",
 "Box art for Lunch Lady",
-"Box art for Call of Duty®: Modern Warfare® 2 (2009)",
+"Box art for Washout",
+
+//No Interest - Multiplayer
+"Box art for Gang Beasts",
+"Box art for Sea of Thieves: 2026 Edition",
+"Box art for Escape the Backrooms",
 "Box art for Inside the Backrooms",
-"Box art for PAYDAY™ The Heist",
 "Box art for Backrooms: Escape Together",
+"Box art for Rising Storm 2: Vietnam",
+
+//No Interest - Old
+"Box art for Tomb Raider I-III Remastered Starring Lara Croft",
+"Box art for Just Cause 2",
+"Box art for PAYDAY™ The Heist",
+"Box art for Super Meat Boy",
+"Box art for Resident Evil 4 (2005)",
+
+//No Interest - Sports
+"Box art for PBA Pro Bowling 2026",
 "Box art for Pro Soccer Online",
+"Box art for F1® Manager 2024",
+"Box art for Sledders",
+
+//No Interest - Survival Crafting
+"Box art for Green Hell",
+"Box art for ARK: Survival Evolved",
+
+//No Interest - VR
+"Box art for BONEWORKS",
+
+//No Interest - Weeb/Anime/Novels
+"Box art for Five Hearts Under One Roof",
+"Box art for Phoenix Wright: Ace Attorney Trilogy",
+"Box art for STEINS;GATE",
+"Box art for RWBY: Grimm Eclipse",
+
+"Box art for VA-11 Hall-A: Cyberpunk Bartender Action",
+"Box art for Danganronpa: Trigger Happy Havoc",
 "Box art for BlazBlue Centralfiction",
 "Box art for Danganronpa 2: Goodbye Despair",
-"Box art for Super Meat Boy",
-"Box art for F1® Manager 2024",
-"Box art for STEINS;GATE",
 "Box art for Tricolour Lovestory",
 "Box art for Pompeii: The Legacy",
 "Box art for Total War: EMPIRE – Definitive Edition",
@@ -264,7 +295,6 @@ function removeArticles() {
 "Box art for ACE COMBAT™ 7: SKIES UNKNOWN",
 "Box art for Planet Zoo",
 "Box art for Men of War: Assault Squad 2",
-"Box art for BONEWORKS",
 "Box art for Mouthwashing",
 "Box art for Cruelty Squad",
 "Box art for LoveChoice",
@@ -276,21 +306,17 @@ function removeArticles() {
 "Box art for Call to Arms - Gates of Hell: Ostfront",
 "Box art for Sally Face - Episode One",
 "Box art for Pacify",
-"Box art for Command & Conquer™ Remastered Collection",
 "Box art for NARAKA: BLADEPOINT",
 "Box art for Forza Horizon 5",
 "Box art for Call of Duty®: Modern Warfare® 3 (2011)",
 "Box art for Goat Simulator",
 "Box art for City Car Driving",
-"Box art for Total War: THREE KINGDOMS",
-"Box art for Box art for BONEWORKS",
 "Box art for Survivalist: Invisible Strain",
 "Box art for Farming Simulator 22",
 "Box art for Terra Invicta",
 "Box art for Age of Empires III: Definitive Edition",
 "Box art for Farming Simulator 19",
 "Box art for Senren＊Banka",
-"Box art for Anno 1800",
 "Box art for Box art for Injustice™ 2",
 "Box art for Island Of Enchantment",
 "Box art for DRACU-RIOT!",
@@ -300,7 +326,6 @@ function removeArticles() {
 "Box art for Call of Duty®: Modern Warfare® 2 (2009)",
 "Box art for Halo Wars: Definitive Edition",
 "Box art for ALTF4",
-"Box art for RWBY: Grimm Eclipse",
 "Box art for NEKOPARA Vol. 4",
 "Box art for Genital Jousting",
 "Box art for RIDE 4",
@@ -309,7 +334,6 @@ function removeArticles() {
 "Box art for Total War: SHOGUN 2",
 "Box art for DiRT Rally 2.0",
 "Box art for Shotgun King: The Final Checkmate",
-"Box art for Mortal Kombat&nbsp;11",
 "Box art for Battlefield™ 1",
 "Box art for Battlefield 4™",
 "Box art for Company of Heroes 2",
@@ -330,7 +354,6 @@ function removeArticles() {
 "Box art for Mortal Kombat&nbsp;11",
 "Box art for Forgot",
 "Box art for Gujian3(古剑奇谭三)",
-"Box art for Sledders",
 "Box art for Mind Over Magic",
 "Box art for Settlements Rising",
 "Box art for Decktamer",
@@ -352,7 +375,6 @@ function removeArticles() {
 "Box art for News Tower",
 "Box art for Milk inside a bag of milk inside a bag of milk",
 "Box art for Ropuka's Idle Island",
-"Box art for Resident Evil 4 (2005)",
 "Box art for Guilty as Sock!",
 "Box art for Survivalist: Invisible Strain",
 "Box art for Cultivation Magic World",
@@ -368,7 +390,6 @@ function removeArticles() {
 "Box art for KARMA: The Dark World",
 "Box art for Plan B: Terraform",
 "Box art for Kabuto Park",
-"Box art for POPUCOM",
 "Box art for Tinkerlands",
 "Box art for Fever Meme",
 "Box art for Void War",
@@ -428,7 +449,6 @@ function removeArticles() {
 "Box art for Millennium 2 - Take Me Higher",
 "Box art for The Hundred Line -Last Defense Academy-",
 "Box art for Mortanis Prisoners",
-"Box art for Washout",
 "Box art for Schoolboy Escape 2: Village",
 "Box art for I woke up in the house of a fat man: he's over 30 years old and loves beer and games",
 "Box art for Italian Brainrot: In Prison",
@@ -554,10 +574,8 @@ function removeArticles() {
 "Box art for Sea of Thieves: 2025 Edition",
 "Box art for People Playground",
 "Box art for Hearts of Iron IV",
-"Box art for Sid Meier’s Civilization® VI",
 "Box art for Arma 3",
 "Box art for Mount & Blade II: Bannerlord",
-"Box art for Age of Empires II: Definitive Edition"
   ];
 
   altTexts.forEach(altText => {
