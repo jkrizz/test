@@ -241,15 +241,22 @@ function removeArticles() {
 "Box art for MONSTER HUNTER RISE",
 "Box art for Call of Duty®: Modern Warfare® 2 (2009)",
 "Box art for POPUCOM",
+"Box art for Undertale",
+"Box art for ULTRAKILL",
+"Box art for Grand Theft Auto IV: The Complete Edition",
 
 //No Interest - Indie
 "Box art for Geometry Dash",
+"Box art for RimWorld",
+"Box art for Oxygen Not Included",
 
 //No Interest - Low Quality Trash
 "Box art for Russian Life Simulator",
 "Box art for Blood and Bacon",
 "Box art for Lunch Lady",
 "Box art for Washout",
+"Box art for Lethal Company",
+"Box art for R.E.P.O.",
 
 //No Interest - Multiplayer
 "Box art for Gang Beasts",
@@ -258,6 +265,12 @@ function removeArticles() {
 "Box art for Inside the Backrooms",
 "Box art for Backrooms: Escape Together",
 "Box art for Rising Storm 2: Vietnam",
+"Box art for Tom Clancy's Rainbow Six Siege",
+"Box art for Valheim",
+"Box art for Don't Starve Together",
+"Box art for Project Zomboid",
+"Box art for It Takes Two Friend's Pass",
+"Box art for Squad",
 
 //No Interest - Old
 "Box art for Tomb Raider I-III Remastered Starring Lara Croft",
