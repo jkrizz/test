@@ -300,15 +300,19 @@ function removeArticles() {
 "Box art for Super Meat Boy",
 "Box art for Resident Evil 4 (2005)",
 
+//No Interest - Racing
+"Box art for Forza Horizon 6",
+"Box art for Assetto Corsa Competizione",
+
 //No Interest - Simulators
 "Box art for Kebab Chefs! - Restaurant Simulator",
+"Box art for The Sims™ 4",
 
 //No Interest - Sports
 "Box art for PBA Pro Bowling 2026",
 "Box art for Pro Soccer Online",
 "Box art for F1® Manager 2024",
 "Box art for Sledders",
-"Box art for Assetto Corsa Competizione",
 
 //No Interest - Survival Crafting
 "Box art for Green Hell",
